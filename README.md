@@ -36,7 +36,7 @@
 4. install packages 
    1. pip install -r requirements.txt
 
-##Run the service
+## Run the service
 
 Two options:
 1. Run main.py from any IDE (make sure you have connected the IDE with the created virtual environment)
@@ -45,7 +45,7 @@ Two options:
 ** The initial dictionary can be loaded when starting the service - just uncomment the function call
 in orm_handler.words -  init_dictionary()
 
-##Interaction with the service
+## Interaction with the service
 
 Two options:
 1. open the Swagger - http://localhost:8000/docs#
