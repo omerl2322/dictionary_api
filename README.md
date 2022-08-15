@@ -19,6 +19,7 @@
 - The file given in the exercise can be loaded when the service is startup - just com
 
 ## Getting started
+
 1. Installation
    1. python (3.7 or higher) on your machine
    2. pip
@@ -36,13 +37,16 @@
    1. pip install -r requirements.txt
 
 ##Run the service
+
 Two options:
 1. Run main.py from any IDE (make sure you have connected the IDE with the created virtual environment)
 2. Run from terminal (env is activated) - uvicorn main:app --reload   
 
 ** The initial dictionary can be loaded when starting the service - just uncomment the function call
 in orm_handler.words -  init_dictionary()
+
 ##Interaction with the service
+
 Two options:
 1. open the Swagger - http://localhost:8000/docs#
 2. install Postman and run specific requests
